@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Лаба_1._2
 {
-    public class Enemy
+    public class EnemyTemplate
     {
         [JsonInclude]
         string name;
@@ -23,7 +23,7 @@ namespace Лаба_1._2
         double goldmodifier;
         [JsonInclude]
         double spawnchance;
-        public Enemy(string name, string iconname, int baselife, double lifemodifier, int basegold, double goldmodifier, double spawnchance) 
+        public EnemyTemplate(string name, string iconname, int baselife, double lifemodifier, int basegold, double goldmodifier, double spawnchance) 
         {
             this.name = name;
             this.iconname = iconname;

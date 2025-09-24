@@ -17,11 +17,11 @@
             <Label Content="List of enemies:"/>
             <TextBox Height="350"/>
             <UniformGrid Columns="2">
-                <Button Content="Save"/>
-                <Button Content="Load"/>
+                <Button Content="Save" Background="Coral"/>
+                <Button Content="Load" Background="Bisque"/>
             </UniformGrid>
         </StackPanel>
-        
+
         <Grid Grid.Column="1">
             <Grid.RowDefinitions>
                 <RowDefinition Height="2*"/>
@@ -44,7 +44,7 @@
                     <TextBox Height="30"/>
 
                 </StackPanel>
-                
+
 
             </UniformGrid>
 
@@ -72,11 +72,12 @@
                 <Label Content="Spawn chance (1-100):"/>
                 <StackPanel Orientation="Horizontal">
                     <TextBox Width="160"/>
-                    <Button Content="Add" Width="80"/>
-                    <Button Content="Remove" Width="80" />
+                    <Button Content="Add" Width="80" Margin="0,0,20,0" Background="Coral"/>
+                    <Button Content="Remove" Width="80" Background="Bisque" />
                 </StackPanel>
             </StackPanel>
         </Grid>
+        
         <UniformGrid Grid.Column="2" Rows="3" Columns="2">
             
         </UniformGrid>

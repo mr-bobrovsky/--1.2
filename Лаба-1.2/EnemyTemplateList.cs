@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace Лаба_1._2
 {
-    public class EnemyList
+    public class EnemyTemplateList
     {
-        List<Enemy> enemies;
-        public EnemyList()
+        List<EnemyTemplate> enemies;
+        public EnemyTemplateList()
         {
-            enemies = new List<Enemy>();
+            enemies = new List<EnemyTemplate>();
         }
 
     }
